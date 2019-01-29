@@ -1,0 +1,40 @@
+<div class="container">
+  <h1>{{title}}</h1>
+  <div class="container">
+      <div class="row">
+        <nav class="nav">
+          <a class="navbrand" routerLink="">Home</a>
+          <a routerLink="events">Events</a>
+          <a routerLink="buying">Buying</a>
+          <a routerLink="selling">Selling</a>
+          <a routerLink="personals">Personals</a>
+          <a routerLink="forums">Forums</a>
+        </nav>
+      </div>
+    </div>
+    <br>
+    <br>
+ 
+    
+      <table>
+        <tr>
+          <td>
+            <label>Name of Category:</label>
+            <input type="text" >
+          </td>
+          <td>
+            <label>Events:</label>
+            <input type="text" >
+          </td>
+          <td>
+            <label>Price:</label>
+            <input type="number" >
+          </td>
+          <td>
+            <label>Desciptions:</label>
+            <input type="text" ></td>
+        </tr>
+      </table>
+      <button class="" >Create List </button>
+  <router-outlet></router-outlet>
+</div>
